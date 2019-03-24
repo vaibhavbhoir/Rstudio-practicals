@@ -1,0 +1,26 @@
+b=c(0,0,0,10,10,10,10,10,20,20,20,20,30,30,30,30,30,30,40,40,40,40,50,50,50,50,50,60,60,60)
+b
+mean=mean(b)
+mean
+median(b)
+mode(b)
+quantile(b)
+range(b)
+IQR(b)
+gm=(0*0*0*10*10*10*10*10*20*20*20*20*30*30*30*30*30*30*40*40*40*40*50*50*50*50*50*60*60*60)^1/30
+gm
+hm=30/(1/0+1/0+1/0+1/10+1/10+1/10+1/10+1/10+1/20+1/20+1/20+1/20+1/30+1/30+1/30+1/30+1/30+1/30+1/40+1/40+1/40+1/40+1/50+1/50+1/50+1/50+1/50+1/60+1/60+1/60)
+hm
+quantile(b,0.22)
+quantile(b,seq(0,1,length=11),type=5)
+md=(abs(0-mean)+abs(0-mean)+abs(0-mean)+abs(10-mean)+
+     abs(10-mean)+abs(10-mean)+abs(10-mean)+abs(10-mean)+
+     abs(20-mean)+abs(20-mean)+abs(20-mean)+abs(20-mean)+
+     abs(30-mean)+abs(30-mean)+abs(30-mean)+abs(30-mean)+
+     abs(30-mean)+abs(30-mean)+abs(40-mean)+abs(40-mean)+
+     abs(40-mean)+abs(40-mean)+abs(50-mean)+abs(50-mean)+
+     abs(50-mean)+abs(50-mean)+abs(50-mean)+abs(60-mean)+
+     abs(60-mean)+abs(60-mean))/30
+md
+sd(b)
+var(b)
